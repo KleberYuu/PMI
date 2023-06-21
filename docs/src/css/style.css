@@ -1,0 +1,80 @@
+/* Estilo aplicado no menu do topo da pagina */
+
+.container{
+    display: inline-flex;
+    flex-direction: row;
+    height: auto;
+    background-color: #00C2CB;
+    box-shadow: 4px 5px 5px 1px #0f0d0d;
+    justify-content: space-between;    
+    max-width: 7000px!important;
+    
+}
+
+.container_menu{
+    display: inline-flex;
+    flex-direction: row;
+    height: auto;      
+}
+
+
+.container_menu > div {   
+    margin: 20px;
+    padding: 5px;
+    font-size: 25px;    
+}
+
+.menu{
+    align-content: center;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    
+}
+
+/* Estilo do Corpo da pagina */
+
+.text-center{
+    margin-top: 45px;
+    color: #0f0d0d;
+}
+
+div > h2 {
+    color: #0f0d0d;
+}
+
+div > p {
+    color:#0f0d0d;
+}
+
+div > .logo-marg{
+    margin-left: 50px;
+}
+
+img{
+    margin-left: 0px;
+}
+
+
+
+.problema{
+    background-color: #00C2CB;
+    background-repeat: no-repeat;
+    background-size: 100vmax auto;
+    height: unset;
+}
+.nicho{
+    background-color: #00C2CB;
+    background-repeat: no-repeat;
+    background-size: 100vmax auto;
+    height: unset;
+}
+
+.row{
+    --bs-gutter-x: 0!important;
+
+
+}

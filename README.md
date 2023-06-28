@@ -8,7 +8,7 @@
 <p>🛠️ _*Recursos/Tecnologias Utilizados:*_ HTML, CSS, PYTHOHN, MongoDB
 </p>
 
-<h2>💡 _PMI I_</h2>
+<h2>💡 PMI I</h2>
 
 <p>🔗 _*url github:*_ https://github.com/KleberYuu/PMI</p>
 <p>🛬 _*url landpage:*_ https://kleberyuu.github.io/PMI/</p>

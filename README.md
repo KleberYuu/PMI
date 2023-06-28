@@ -7,6 +7,7 @@
 <p>🧑‍💻👩‍💻 Equipe: Kleber Silva dos Santos, Cícero Marçal Ferreira</p>
 <p>🛠️ Recursos/Tecnologias Utilizados: HTML, CSS, PYTHOHN, MongoDB
 </p>
+
 -------------------
 <h2>💡 PMI I</h2> 
 

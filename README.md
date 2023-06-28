@@ -11,10 +11,10 @@
 -------------------
 <h2>💡 PMI I</h2> 
 
-<p>🔗 _*url github:*_ https://github.com/KleberYuu/PMI</p>
-<p>🛬 _*url landpage:*_ https://kleberyuu.github.io/PMI/</p>
-</p>🤝 _*url Modelo Negócio (imagem):*_ https://www.canva.com/design/DAFmdyFr7Rk/w8Ht_2sHC6AtgL9BcLxtmQ/edit?utm_content=DAFmdyFr7Rk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton</p>
-<p>🗓️ _*url Product Backlog:*_</p>
+<p>🔗 github:https://github.com/KleberYuu/PMI</p>
+<p>🛬 landpage:https://kleberyuu.github.io/PMI/</p>
+</p>🤝 Modelo Negócio (imagem): https://www.canva.com/design/DAFmdyFr7Rk/w8Ht_2sHC6AtgL9BcLxtmQ/edit?utm_content=DAFmdyFr7Rk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton</p>
+<p>🗓️  Product Backlog:</p>
 
 
 -------------------

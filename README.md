@@ -1,5 +1,6 @@
--------------------
-# Calcule Fácil #
+---
+
+# Calcule Fácil
 
 <p>🙁 Problema: Tempo despendido durante o cálculo preciso da composição da remuneração do salário dos funcionários.</p>
 <p>🙂 Nicho: Profissionais da área de Recursos Humanos, analistas de contratos e licitações e público em geral, que desejam descobrir como será a composição da remuneração salarial bruta.</p>
@@ -8,36 +9,37 @@
 <p>🛠️ Recursos/Tecnologias Utilizados: HTML, CSS, PYTHOHN, MongoDB
 </p>
 
--------------------
-<h2>💡 PMI I</h2> 
+---
+
+<h2>💡 PMI I</h2>
 
 <p>🔗 github:https://github.com/KleberYuu/PMI</p>
 <p>🛬 landpage:https://kleberyuu.github.io/PMI/</p>
-</p>🤝 Modelo Negócio (imagem): https://www.canva.com/design/DAFmdyFr7Rk/x_M8v1mQmfnIKqxzdUc8cw/view?utm_content=DAFmdyFr7Rk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+</p>🤝 Modelo Negócio: <img src="/docs/src/img/verde%20simples%20modelo%20de%20neg%C3%B3cios%20P%C3%B4ster.png">
 <p>🗓️  Product Backlog:</p>
 
+---
 
--------------------
 <h3>📲 _PMI II_</h3>
 
 <p>⌨️ _*url Protótipo (Figma):*_</p>
 <p>📝 _*url Modelagem Sistema:*_</p>
 
+---
 
--------------------
 <h3>💻 _PMI III_</h3>
 
 <p>🖥️ _*Versão do Código no github:*_</p>
 <p>🎥 _*url vídeo demonstração (código):*_</p>
 
--------------------
+---
 
-<h3>💻 _PMI IV_</h3>
--------------------
+## <h3>💻 _PMI IV_</h3>
+
 <p>🖥️ _*Versão do Código no github/heroku/servidor:*_</p>
 <p>🎞️ _*url vídeo demonstração (pitch ideia):*_</p>
 <p>🎥 _*url vídeo demonstração (aplicação rodando):</p>*_
 
--------------------
+---
 
 <p>📚 _Referências:_</p>

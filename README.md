@@ -13,7 +13,7 @@
 
 <p>🔗 github:https://github.com/KleberYuu/PMI</p>
 <p>🛬 landpage:https://kleberyuu.github.io/PMI/</p>
-</p>🤝 Modelo Negócio (imagem): <img src="https://ibb.co/VWLbfp1">
+</p>🤝 Modelo Negócio (imagem): https://www.canva.com/design/DAFmdyFr7Rk/x_M8v1mQmfnIKqxzdUc8cw/view?utm_content=DAFmdyFr7Rk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 <p>🗓️  Product Backlog:</p>
 
 

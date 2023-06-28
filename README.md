@@ -13,7 +13,7 @@
 
 <p>🔗 github:https://github.com/KleberYuu/PMI</p>
 <p>🛬 landpage:https://kleberyuu.github.io/PMI/</p>
-</p>🤝 Modelo Negócio (imagem): <img src="https://www.example.com/images/dinosaur.jpg">
+</p>🤝 Modelo Negócio (imagem): <img src="https://ibb.co/VWLbfp1">
 <p>🗓️  Product Backlog:</p>
 
 

@@ -20,7 +20,7 @@
 
 <h3>📲 _PMI II_</h3>
 
-<p>⌨️ Protótipo:<a href="https://www.figma.com/file/Rfkblm0m8zlSMdBArr6iWf/teste?type=design&node-id=0-1&mode=design&t=VBt9cnuzCXTSHe7K-0"> Figma</a></p>
+<p>⌨️ Protótipo:<a href="https://www.figma.com/file/Rfkblm0m8zlSMdBArr6iWf/teste?type=design&node-id=0-1&mode=design&t=VBt9cnuzCXTSHe7K-0"> Figma</a></p><img src="/docs/src/img/Desktop - 1.png">
 <p>📝 _*url Modelagem Sistema:*_</p>
 
 ---

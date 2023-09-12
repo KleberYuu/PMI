@@ -3,7 +3,7 @@
 <p>🙁 Problema: Tempo despendido durante o cálculo preciso da composição da remuneração do salário dos funcionários.</p>
 <p>🙂 Nicho: Profissionais da área de Recursos Humanos, analistas de contratos e licitações e público em geral, que desejam descobrir como será a composição da remuneração salarial bruta.</p>
 <p>🎁 Proposta de Valor: Através de um App ambientado em uma plataforma online, permitir ao usuário maior agilidade e eficiência no cálculo da remuneração dos funcionários.</p>
-<p>🧑‍💻👩‍💻 Equipe: Kleber Silva dos Santos, Cícero Marçal Ferreira</p>
+<p>🧑‍💻👩‍💻 Equipe: Kleber Silva dos Santos, Cícero Marçal Ferreira, Antonio Amaral, Gilberto Junior</p>
 <p>🛠️ Recursos/Tecnologias Utilizados: HTML, CSS, PYTHOHN, MongoDB
 </p>
 

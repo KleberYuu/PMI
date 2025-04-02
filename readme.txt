@@ -1,1 +1,0 @@
-Só para avaliar , Mas esta uma Bosta kk fiz até o relatorio , mas vou precisar da sua ajuda tbm kkk alguns comandos nao sei fazer

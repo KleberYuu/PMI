@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/homologacao-chave.css">
+    <link rel="stylesheet" href="/public/css/sidebar.css">
+    <title>Acessar Contrato</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="/views/prestadorInfoGerais.html" class="linkSideBar">Informações Gerais</a>
+            </li>
+            <li>
+                <a href="/views/prestadorCustoFormador.html" class="linkSideBar">Custo e Formador</a>
+            </li>
+            <li>
+                <a href="/views/prestadorRelatorio.html" class="linkSideBar">Relatório</a>
+            </li>
+            <li>########</li>
+            <li>
+                <a href="/views/homologacaoAcessarContrato.html" class="linkSideBar">Chave</a>
+            </li>
+            <li>
+                <a href="/views/homologacaoAlteracao.html" class="linkSideBar">Alteração</a>
+            </li>
+            <li>
+                <a href="/views/homologacaoRelatorio.html" class="linkSideBar">Relatório</a>
+            </li>
+            <li>########</li>
+            <li>
+                <a href="/views/formalizadorNovaChave.html" class="linkSideBar">Nova Chave</a>
+            </li>
+            <li>
+                <a href="/views/formalizadorBuscarChave.html" class="linkSideBar">Buscar Chave</a>
+            </li>
+            <li>
+                <a href="/views/formalizadorGerarRelatorio.html" class="linkSideBar">Relatório</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="container form-container">
+            <h1 class="text-center mb-4">Acessar Contrato</h1>
+            <div class="bg-custom p-2 text-center rounded-custom mb-4">
+                <span class="m-0">Informe o número do contrato vinculado a chave</span>
+            </div>
+            <form id="formHomologacao" class="formHomologacao" onsubmit="acessarHomologacao(event)">
+                <div class="input-field">
+                    <label class="input-group-text">Número do contrato</label>
+                    <input type="text" id="numeroContrato" class="form-control" required placeholder="48754651488">
+                </div>
+
+                <button type="submit" class="btn btn-sm bg-custom btn-acessar">Acessar</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script>
+    function acessarHomologacao(event) {
+        event.preventDefault();
+        const numeroContrato = document.getElementById('numeroContrato').value;
+
+        if (numeroContrato) {
+            localStorage.setItem('numeroContrato', numeroContrato);
+            window.location.href = 'homologacao.html';
+        } else {
+            alert('Por favor, informe o número do contrato');
+        }
+    }
+
+
+    window.onload = function () {
+        const contratoSalvo = localStorage.getItem('numeroContrato');
+        if (contratoSalvo) {
+            document.getElementById('numeroContrato').value = contratoSalvo;
+        }
+    }
+</script>
+
+</html>

@@ -1,0 +1,65 @@
+.input-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    /* Sem espaço entre elementos */
+    border: 1px solid;
+    /* Borda única ao redor do grupo */
+    padding: 0;
+    border-radius: 0.5rem;
+    background: white;
+}
+
+.input-field label {
+    background-color: #005ca9;
+    color: #fff;
+    margin: 0;
+    /* Evitar quebra de texto */
+    border-right: 1px solid;
+    /* Borda interna entre a label e o campo */
+}
+
+.input-group-text {
+    border: none !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.form-control {
+    border: none !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+
+.bg-custom {
+    background-color: #005ca9;
+    color: #fff;
+}
+
+.formHomologacao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.rounded-custom {
+    border-radius: 0.5rem;
+}
+
+.btn-acessar {
+    display: block;
+    width: 10rem;
+    margin: 30px auto;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    cursor: pointer;
+}

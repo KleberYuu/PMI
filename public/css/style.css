@@ -1,0 +1,381 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D9D9D9;
+    /* Cor alterada */
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.highlight {
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.login-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #00BFFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Container dos formulários */
+.login-container,
+.password-container,
+.forgot-password-container,
+.contract-container,
+.form-container {
+    border: 1px solid #00bfff;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Título dos formulários */
+.login-form h2,
+.password-form h2,
+.forgot-password-form h2,
+.form-container h2 {
+    text-align: center;
+    background-color: #fff;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    width: max-content;
+}
+
+
+/* Grupo de entrada (label e input) */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100% !important;
+    padding: 8px !important;
+    font-size: 14px !important;
+    border-radius: 5px !important;
+    border: 1px solid #00bfff;
+}
+
+/* Botão submit */
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-submit:hover {
+    background-color: #00a3cc;
+}
+
+/* Botão voltar */
+.back-btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.back-btn:hover {
+    color: #00a3cc;
+}
+
+/* Content Section */
+.content {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.text-overlay h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.text-overlay p {
+    font-size: 20px;
+}
+
+/* Tabela de resumo */
+.summary-container {
+    margin-top: 20px;
+}
+
+.summary-container h3 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.summary-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.summary-container th,
+.summary-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.summary-container th {
+    background-color: #00bfff;
+    color: white;
+}
+
+/* Botões de ação */
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.actions .btn-action {
+    background-color: #00bfff;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.actions .btn-action:hover {
+    background-color: #007399;
+}
+
+/* Estilos adicionais para botões */
+.button {
+    background-color: #00BFFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #007BBF;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Acesso à chave (novos estilos) */
+.access-key {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.access-key span {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.access-key .copy-button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo adicional para a imagem */
+.homologacao img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo do container e dos formulários na página de prestadores de serviços */
+.container {
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    /* Adicionado novo estilo */
+}
+
+/* Estilos do analista formalizador */
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tabs button:hover {
+    background-color: #0056b3;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f8f8f8;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons .back {
+    background-color: #dc3545;
+    color: white;
+}
+
+.esqueciSenha {
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.trocarSenha {
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.login-form,
+.password-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-block {
+    margin-top: 1rem;
+    width: max-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-self: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.emailEsqueceu{
+    display: flex;
+    flex-direction: column;
+}

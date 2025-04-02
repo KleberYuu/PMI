@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esqueceu a Senha - Calcule Fácil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/style.css"> <!-- Link para o seu CSS -->
+</head>
+<body>
+    <div class="forgot-password-container container">
+        <form class="forgot-password-form" onsubmit="sendPasswordReset(event)">
+            <h2>Esqueceu a Senha</h2>
+            <div class="input-group mb-3 emailEsqueceu">
+                <label for="reset-email" class="form-label">Email</label>
+                <input type="email" id="reset-email" name="reset-email" class="form-control" placeholder="ads@exemplo.com" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Redefinir Senha</button>
+        </form>
+        <button class="btn btn-secondary mt-3" onclick="window.location.href='/views/login.html'">Voltar</button>
+    </div>
+
+    <script>
+        function sendPasswordReset(event) {
+            event.preventDefault();
+            const email = document.getElementById('reset-email').value;
+            // Aqui você pode adicionar a lógica para enviar o email de redefinição
+            alert('Instruções para redefinir a senha foram enviadas para ' + email);
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

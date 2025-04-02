@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/custoFormador.css">
+    <link rel="stylesheet" href="/public/css/sidebar.css">
+    <title>Custo Formador</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="/views/prestadorInfoGerais.html" class="linkSideBar">Informações Gerais</a>
+            </li>
+            <li>
+                <a href="/views/prestadorCustoFormador.html" class="linkSideBar">Custo e Formador</a>
+            </li>
+            <li>
+                <a href="/views/prestadorRelatorio.html" class="linkSideBar">Relatório</a>
+            </li>
+            <li>########</li>
+            <li>
+                <a href="/views/homologacaoAcessarContrato.html" class="linkSideBar">Chave</a>
+            </li>
+            <li>
+                <a href="/views/homologacaoAlteracao.html" class="linkSideBar">Alteração</a>
+            </li>
+            <li>
+                <a href="/views/homologacaoRelatorio.html" class="linkSideBar">Relatório</a>
+            </li>
+            <li>########</li>
+            <li>
+                <a href="/views/formalizadorNovaChave.html" class="linkSideBar">Nova Chave</a>
+            </li>
+            <li>
+                <a href="/views/formalizadorBuscarChave.html" class="linkSideBar">Buscar Chave</a>
+            </li>
+            <li>
+                <a href="/views/formalizadorGerarRelatorio.html" class="linkSideBar">Relatório</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="container form-container">
+            <h1 class="text-center mb-4">Custo e Formador</h1>
+            <div class="bg-custom p-2 text-center rounded-custom mb-4">
+                <span class="m-0">Dados Processo Licitatório</span>
+            </div>
+            <div class="row g-3 mb-3">
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <label class="input-group-text bg-custom" for="profissionais">Quantidade de
+                            Profissionais</label>
+                        <input type="text" name="numeroProfissionais" id="numeroProfissionais"
+                            class="form-control numeroQtd">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <label class="input-group-text bg-custom" for="lote">Informe o Lote</label>
+                        <input type="text" name="numeroLote" id="numeroLote" class="form-control numeroQtd">
+                    </div>
+                </div>
+
+            </div>
+            <div class="m-3 input-group center">
+                <a href="" type="button" class="btn bg-custom rounded-custom px-4 ">Adicionar Lote</a>
+            </div>
+            <div class="card">
+                <div class="card-header text-center bg-info text-white">
+                    Quadro de Resumo
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered text-center mb-0">
+                        <thead class="table-info">
+                            <tr>
+                                <th class="bg-info">Lote</th>
+                                <th>5</th>
+                                <th class="bg-info">Status</th>
+                                <th colspan="3">Liberado para Homologação</th>
+                                <th><button class="btn btn-sm bg-custom"
+                                        onclick="acessarQuadroDetalhes(event)">Editar</button>
+                                <th><button class="btn btn-sm bg-custom" onclick="toggleDetalhes(1)">Expandir</button>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="detalhes detalhes-1" style="display: none;">
+                            <tr class="table-secondary">
+                                <th>Entidade</th>
+                                <th>Unidade</th>
+                                <th>Posto de Serviço</th>
+                                <th>Jornada</th>
+                                <th>Carga Horária Semanal</th>
+                                <th>Quantidade</th>
+                                <th>Valor Unitário</th>
+                                <th>Valor Total</th>
+                            </tr>
+                            <tr class="expandir-linha">
+                                <td colspan="9">Detalhes do Lote 5...</td>
+                            </tr>
+                        </tbody>
+
+                        <thead class="table-info">
+                            <tr>
+                                <th class="bg-info">Lote</th>
+                                <th>6</th>
+                                <th class="bg-info">Status</th>
+                                <th colspan="3">Incompleto</th>
+                                <th><button class="btn btn-sm bg-custom"
+                                        onclick="acessarQuadroDetalhes(event)">Editar</button>
+                                <th><button class="btn btn-sm bg-custom" onclick="toggleDetalhes(2)">Expandir</button>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="detalhes detalhes-2" style="display: none;">
+                            <tr class="table-secondary">
+                                <th>Entidade</th>
+                                <th>Unidade</th>
+                                <th>Posto de Serviço</th>
+                                <th>Jornada</th>
+                                <th>Carga Horária Semanal</th>
+                                <th>Quantidade</th>
+                                <th>Valor Unitário</th>
+                                <th>Valor Total</th>
+                            </tr>
+                            <tr>
+                                <td colspan="8">Detalhes do Lote 6...</td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="bg-info">Total Quantidade</td>
+                                <td>0</td>
+                                <td colspan="2" class="bg-info">Total Mensal</td>
+                                <td>R$ 0,00</td>
+                                <td colspan="2" class="bg-info">Total Anual</td>
+                                <td>R$ 0,00</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <a href="/views/prestadorRelatorio.html" type="button" class="btn bg-custom rounded-custom px-4">Proseguir para
+            relatório</a>
+    </div>
+</body>
+
+<script>
+    function toggleDetalhes(lote) {
+        const detalhes = document.querySelectorAll('.detalhes-' + lote);
+        detalhes.forEach(row => {
+            row.style.display = row.style.display === 'none' ? 'table-row-group' : 'none';
+        });
+    }
+    function acessarQuadroDetalhes(event) {
+        event.preventDefault();
+
+        window.location.href = 'prestadorQuadroDetalhado.html';
+    }
+</script>
+
+</html>

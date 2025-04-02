@@ -1,0 +1,164 @@
+.bg-info {
+    color: white !important;
+    background-color: #005ca9 !important;
+    font-weight: 300;
+}
+
+.btn-sm {
+    color: white;
+    background-color: #005ca9;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.btn-sm:hover {
+    background-color: #fff;
+    border: solid 1px;
+}
+
+.bordas {
+    border-radius: 0 !important;
+    border-bottom: 0 !important;
+    width: 5rem !important;
+}
+
+.bordasBotoes {
+    width: max-content !important;
+    border: 1px solid !important;
+    border-radius: 0.5rem !important;
+}
+
+.totais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.subtotais {
+    width: 100%;
+    display: flex;
+}
+
+.alinhar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input-group-text {
+    width: max-content;
+    border-radius: 0;
+    width: 100%;
+}
+
+.centrarFomr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.borda-bottom-left {
+    border-bottom-left-radius: 0.3rem !important;
+}
+
+.borda-bottom-right {
+    border-bottom-right-radius: 0.3rem !important;
+}
+
+.bg-customSB {
+    border: 1px solid;
+    color: black;
+    padding: .3rem !important;
+    width: 20rem;
+}
+
+.rounded-custom {
+    border-radius: 0.5rem;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.btn-acessar{
+    margin-bottom: 2rem;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: solid 1px;
+}
+
+.btn-width {
+    width: 10rem;
+}
+
+.bg-custom {
+    background-color: #005ca9;
+    color: #fff;
+}
+
+.input-group {
+    display: flex;
+    align-items: stretch;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: solid 1px;
+}
+
+.btnB:hover {
+    background-color: #005ca9 !important;
+    color: #fff;
+}
+
+.bg-info {
+    background-color: #005ca9 !important;
+    color: #fff !important;
+}
+
+.btn-relatorio{
+    width: 15rem;
+    align-self: center;
+}
+
+.centrar-btn-relatorio{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.mt-5 {
+    width: 51rem;
+}
+
+.input-group-text {
+    border: none;
+    justify-content: flex-start;
+}
+
+.form-control {
+    flex: 1;
+}
+
+.center {
+    justify-content: center;
+}
+
+.row {
+    align-self: center;
+}
+
+.col-md-4 {
+    width: 100% !important;
+}

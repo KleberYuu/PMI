@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/gerarRelatorio.css">
+    <link rel="stylesheet" href="/public/css/sideBar.css">
+    <!-- <link rel="stylesheet" href="/public/css/sidebar.css"> -->
+    <title>Sidebar</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="/views/prestadorInfoGerais.html" class="linkSideBar">Informações Gerais</a>
+            </li>
+            <li>
+                <a href="/views/prestadorCustoFormador.html" class="linkSideBar">Custo e Formador</a>
+            </li>
+            <li>
+                <a href="/views/prestadorRelatorio.html" class="linkSideBar">Relatório</a>
+            </li>
+            <li>########</li>
+            <li>
+                <a href="/views/homologacaoAcessarContrato.html" class="linkSideBar">Chave</a>
+            </li>
+            <li>
+                <a href="/views/homologacaoAlteracao.html" class="linkSideBar">Alteração</a>
+            </li>
+            <li>
+                <a href="/views/homologacaoRelatorio.html" class="linkSideBar">Relatório</a>
+            </li>
+            <li>########</li>
+            <li>
+                <a href="/views/formalizadorNovaChave.html" class="linkSideBar">Nova Chave</a>
+            </li>
+            <li>
+                <a href="/views/formalizadorBuscarChave.html" class="linkSideBar">Buscar Chave</a>
+            </li>
+            <li>
+                <a href="/views/formalizadorGerarRelatorio.html" class="linkSideBar">Relatório</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="container form-container">
+            <h1 class="text-center mb-4">Relatório</h1>
+            <div class="bg-custom p-2 text-center rounded-custom mb-4">
+                <span class="m-0">Resumo dos contratos</span>
+            </div>
+
+            <div class="card">
+                <div class="table-responsive card">
+                    <table class="table table-bordered text-center mb-0">
+                        <thead class="table-info">
+                            <tr>
+                                <th class="bg-info">Número do contrto</th>
+                                <th class="bg-info">Status</th>
+                                <th class="bg-info">Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody class="detalhes detalhes-1">
+                            <tr class="table-secondary">
+                                <td>889875594</td>
+                                <td>Em trânsito</td>
+                                <td><button disabled class="btn btn-sm bg-custom">Gerar Relatório</button></td>
+                            </tr>
+                        </tbody>
+                        <tbody class="detalhes detalhes-1">
+                            <tr class="table-secondary">
+                                <td>6484988448</td>
+                                <td>Esperando Homologação</td>
+                                <td><button disabled class="btn btn-sm bg-custom">Gerar Relatório</button></td>
+                            </tr>
+                        </tbody>
+                        <tbody class="detalhes detalhes-1">
+                            <tr class="table-secondary">
+                                <td>6488111448</td>
+                                <td>Pronto para emissão</td>
+                                <td><button class="btn btn-sm bg-custom">Gerar Relatório</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="" type="button" class="btn bg-custom rounded-custom px-4">Enviar para Homologação</a> -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+.menu {
+    background-color: #005ca9;
+    color: #fff;
+    border-radius: .2rem;
+    border: solid 1px;
+    width: 51rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-custom {
+    background-color: #005ca9;
+    color: #fff;
+}
+
+.rounded-custom {
+    border-radius: 0.5rem;
+}
+
+.input-group {
+    display: flex;
+    align-items: stretch;
+}
+
+.numeroLote {
+    width: 2rem;
+    height: 1.7rem;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: solid 1px;
+}
+
+.bg-info {
+    background-color: #005ca9 !important;
+    color: #fff !important;
+}
+
+.mt-5 {
+    width: 51rem;
+}
+
+.input-group-text {
+    width: max-content;
+    border: none;
+    justify-content: flex-start;
+    color: #fff;
+}
+
+.form-control {
+    flex: 1;
+}
+
+.numeroQtd {
+    max-width: 3rem !important;
+}
+
+.center {
+    justify-content: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+.card {
+    border: none !important;
+    width: 90%;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}

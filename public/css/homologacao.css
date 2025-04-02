@@ -1,0 +1,58 @@
+.bg-info {
+    color: white !important;
+    background-color: #005ca9 !important;
+    font-weight: 300;
+}
+
+.btn-sm {
+    color: white;
+    background-color: #005ca9;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.btn-sm:hover {
+    background-color: #fff;
+    border: solid 1px;
+}
+
+.bordas {
+    border-radius: 0 !important;
+    border-bottom: 0 !important;
+    width: 5rem !important;
+}
+
+.totais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.subtotais {
+    width: 100%;
+    display: flex;
+}
+
+.alinhar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input-group-text {
+    border-radius: 0;
+    width: 100%;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.borda-bottom-left {
+    border-bottom-left-radius: 0.3rem !important;
+}
+
+.borda-bottom-right {
+    border-bottom-right-radius: 0.3rem !important;
+}

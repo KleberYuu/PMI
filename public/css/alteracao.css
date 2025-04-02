@@ -1,0 +1,103 @@
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    /* Sem espaço entre elementos */
+    border: 1px solid;
+    /* Borda única ao redor do grupo */
+    border-radius: 0.5rem;
+    background: white;
+    width: 70%;
+}
+
+.input-field label {
+    margin: 0;
+    white-space: nowrap;
+    /* Evitar quebra de texto */
+    border-right: 1px solid;
+    /* Borda interna entre a label e o campo */
+}
+
+.input-field input {
+    flex: 1;
+    border: none;
+    /* Sem bordas ao redor do input */
+    font-size: 16px;
+}
+
+.input-group-text {
+    width: 15rem !important;
+    border: none !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.form-control {
+    border: none !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+
+}
+
+.btn-acessar {
+    display: block;
+    width: 10rem;
+    margin: 30px auto;
+    border-radius: 2rem;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bg-custom {
+    background-color: #005ca9;
+    color: #fff;
+}
+
+.rounded-custom {
+    border-radius: 0.5rem;
+}
+
+.input-group {
+    display: flex;
+    align-items: stretch;
+}
+
+.numeroLote {
+    width: 2rem;
+    height: 1.7rem;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: solid 1px;
+}
+
+.bg-info {
+    background-color: #005ca9 !important;
+    color: #fff !important;
+}
+
+.mt-5 {
+    width: 51rem;
+}
+
+.input-group-text {
+    width: max-content;
+    border: none;
+    justify-content: flex-start;
+    color: #fff;
+}
+
+.form-control {
+    flex: 1;
+}
+
+.center {
+    justify-content: center;
+}

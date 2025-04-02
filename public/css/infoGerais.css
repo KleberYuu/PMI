@@ -1,0 +1,42 @@
+
+.bg-custom {
+    background-color: #005ca9;
+    color: #fff;
+}
+
+.rounded-custom {
+    border-radius: 0.5rem;
+}
+
+.upload-box {
+    border: 2px dashed #ccc;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+.input-group {
+    display: flex;
+    align-items: stretch;
+}
+
+.input-group-text {
+    width: max-content;
+    border: none;
+    justify-content: flex-start;
+    color: #fff;
+}
+
+.form-control {
+    flex: 1;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: solid 1px;
+}
+
+.m-0{
+    color: #fff;
+}

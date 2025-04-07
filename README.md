@@ -12,16 +12,16 @@
 <h2>💡 PMI I</h2>
 
 <p>🔗 github:<a href="https://github.com/KleberYuu/PMI"> Github</a></p>
-<p>🛬 landpage:<a href="https://kleberyuu.github.io/PMI/"> LP</a></p>
-</p>🤝 Modelo Negócio: <img src="/docs/src/img/verde%20simples%20modelo%20de%20neg%C3%B3cios%20P%C3%B4ster.png">
+<p>🛬 landpage:</p>
+</p>🤝 Modelo Negócio:
 <p>🗓️  Product Backlog:</p>
 
 ---
 
 <h3>📲 _PMI II_</h3>
 
-<p>⌨️ Protótipo:<a href="https://www.figma.com/proto/Rfkblm0m8zlSMdBArr6iWf/teste?type=design&node-id=1-2&t=FkAcddEhIgxMYO1p-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1&mode=design"> Figma</a></p><img src="/docs/src/img/Desktop - 1.png">
-<p>📝 _*url Modelagem Sistema:*_</p>
+<p>⌨️ Protótipo:<a href="https://www.figma.com/proto/Rfkblm0m8zlSMdBArr6iWf/teste?type=design&node-id=1-2&t=FkAcddEhIgxMYO1p-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1&mode=design"> Figma</a></p>
+<p>📝 Modelagem Sistema: <a href="https://drive.google.com/file/d/1Sv3x3oL_UHv7cHZjMhzjMEK73gPLj_AA/view?usp=sharing">Diagramas</p>
 
 ---
 
